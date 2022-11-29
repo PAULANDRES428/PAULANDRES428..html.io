@@ -1,0 +1,95 @@
+body {
+	background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+.banner {
+	width: 100%;
+	height: 120vh;
+	background-image:url(Image.png);
+	background-size: cover;
+	background-position: center;
+}
+.navbar {
+	width: 85;
+	margin: auto;
+	padding: 35xp 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+    width: 20 0px;
+    margin: unset;
+    cursor: pointer;
+}
+.navbar ul li{
+	list-type: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: blueviolet;
+	text-transform: uppercase;
+}
+.navbar ul li:after {
+	content: * *;
+	height: 3px;
+	width: 0%;
+	background: purple;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after {
+	width:100%;
+}
+.content {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: blueviolet;
+}
+.content h1{
+	font-size: 70px;
+	margin-top: 80px;
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-heiht: 50xp;
+}
+
+img {
+	background-color: #333;
+	height: 30%;
+	width: 30%;
+}
+
+h1 {
+	color: white;
+	font-size: 260%;
+}
+
+p {
+	color: white;
+	font-size: small;
+}
+
+h2 {
+	color: white;
+}
+
+button {
+    color: white;
+}
+
+li {
+    color: white;
+}
